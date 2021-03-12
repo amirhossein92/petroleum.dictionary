@@ -1,2 +1,4 @@
-# petroleum.dictionary
-Petroleum technical dictionary
+# ترجمه فارسی لغات مربوط به رشته مهندسی نفت
+
+کاربرد:
+نوشتن مقالات، پایان نامه یا پروژه های فارسی
