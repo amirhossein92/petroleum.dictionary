@@ -3,9 +3,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Petroleum Dictionary</title>
+    <title>Petroleum Dictionary - Persian</title>
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <h1>In progress...</h1>
+    <section id="main-section">
+      <h3>دیکشنری نفت - فارسی</h3>
+      <p class="subtitle">لغت خود را وارد کنید</p>
+      <div class="search-container">
+        <form onsubmit="onSearch(event)">
+          <input onchange="onInputChanged(event)" />
+          <button>جست‌و‌جو</button>
+        </form>
+      </div>
+    </section>
+    <section id="result-section"></section>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>
